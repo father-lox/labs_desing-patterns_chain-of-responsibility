@@ -1,0 +1,13 @@
+.wallet-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    .wallet {
+        flex-shrink: 1;
+        width: 100%;
+        max-width: 150rem;
+    }
+}

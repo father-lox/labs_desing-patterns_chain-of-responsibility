@@ -1,0 +1,13 @@
+.pay-form {
+    display: flex;
+
+    &__price {
+        width: 100%;
+    }
+
+    &__button {
+        flex-shrink: 1;
+        width: 170rem;
+        margin: 0 0 0 10rem;
+    }
+}

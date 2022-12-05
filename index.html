@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <main class="app">
+        <form class="pay-form" id="pay-form">
+            <input id="pay-button" class="pay-form__price" type="number" required placeholder="Enter order rice">
+            <button type="submit" class="pay-form__button">Pay</button>
+        </form>
+        <ul class="wallet-list">
+            <li id="btc" class="wallet">
+                <h2 class="wallet__name">Bitcoin</h2>
+                <img class="wallet__image" src="./img/bitcoinsv.svg" alt="BitCoin">
+                <p class="wallet__balance">300</p>
+            </li>
+            <li id="eth" class="wallet">
+                <h2 class="wallet__name">Ethereum</h2>
+                <img class="wallet__image" src="./img/ethereum.svg" alt="Ethereum">
+                <p class="wallet__balance">600</p>
+            </li>
+            <li id="xmr" class="wallet">
+                <h2 class="wallet__name">Monero</h2>
+                <img class="wallet__image" src="./img/monero.svg" alt="Monero">
+                <p class="wallet__balance">700</p>
+            </li>
+        </ul>
+    </main>
+    <script type="module" src="./build/index.js"></script>
+</body>
+</html>

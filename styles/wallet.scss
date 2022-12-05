@@ -1,0 +1,26 @@
+.wallet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__name, &__balance {
+        text-align: center;
+        font-size: 18rem;
+    }
+
+    &__image {
+        display: block;
+        margin: 20rem 0;
+        max-height: 100rem;
+    }
+
+    &_success-pay {
+        background-color: rgb(165, 255, 210);
+        border-radius: 10rem;
+    }
+
+    &_error-pay {
+        background-color: rgb(255, 193, 165);
+        border-radius: 10rem;
+    }
+}

@@ -1,0 +1,12 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700rem;
+    margin: 0 auto;
+    height: 100vh;
+
+    .wallet-list {
+        margin: 30rem 0 0;
+    }
+}
