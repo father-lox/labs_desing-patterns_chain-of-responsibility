@@ -1,0 +1,11 @@
+.pay-form {
+  display: flex;
+}
+.pay-form__price {
+  width: 100%;
+}
+.pay-form__button {
+  flex-shrink: 1;
+  width: 170rem;
+  margin: 0 0 0 10rem;
+}/*# sourceMappingURL=pay-form.css.map */

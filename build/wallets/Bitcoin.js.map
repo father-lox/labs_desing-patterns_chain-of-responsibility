@@ -1,0 +1,1 @@
+{"version":3,"file":"Bitcoin.js","sourceRoot":"","sources":["../../source/wallets/Bitcoin.ts"],"names":[],"mappings":"AAAA,OAAO,MAAM,MAAM,aAAa,CAAC;AAEjC,MAAM,CAAC,OAAO,OAAO,OAAQ,SAAQ,MAAM;IAC1C,YAAY,OAAe,EAAE,IAAiB;QAC7C,KAAK,CAAC,SAAS,EAAE,OAAO,EAAE,IAAI,CAAC,CAAC;IAChC,CAAC;CACF;AAAA,CAAC"}
