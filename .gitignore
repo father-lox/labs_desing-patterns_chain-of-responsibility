@@ -1,3 +1,6 @@
 /node_modules
 /package-lock.json
 /build
+/doc
+/styles/*.css
+/styles/*.css.map
